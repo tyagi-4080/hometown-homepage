@@ -1,0 +1,310 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+     
+     
+}
+
+img {
+    width: 100px;
+    
+}
+.first-border{
+    border-width: 720px;
+margin-bottom: -20px;
+
+}
+.backgroung-img{
+    
+     margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 300px;
+    background-image: url("images/torshov.jpg");
+     background-size: cover;
+      display: flex;
+    flex-direction: column;
+     align-items: center;
+     /* padding: 10px 0 40px 0;*/
+}
+#first-line {
+   background: #1D3557;
+
+   color: #FFFFFF;
+ font-family: Arial;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 225;
+height: 42;
+top: 119px;
+left: 247px;
+border-radius: 10px;
+padding: 10px 20px;
+    margin: 60px 0px 10px 0px;
+}
+#second-line{
+    
+
+    background: #457B9D;
+    color:  #FFFFFF;
+    font-family: Arial;
+font-weight: 700;
+font-size: 18.72px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 355;
+height: 39;
+top: 177px;
+left: 182px;
+border-radius: 10px;
+padding: 2px 10px;
+margin: 0px;
+
+
+}
+
+.second-border{
+    margin-top: 0px;
+    padding: 10px 20px 10px 20px;
+    border-width: 720px;
+
+border-top: 343px;
+background: #F1FAEE;
+
+
+}
+
+
+.img-1 {
+
+    
+     clip-path: circle();
+     
+}
+
+
+.img-2
+{ 
+     clip-path: circle();
+     } 
+
+.img-3 
+{ clip-path: circle();
+}
+
+#activity-h1 {
+    
+    color:  #1D3557;
+    font-family: Arial;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 439;
+height: 20;
+top: 39px;
+left: 140px;
+
+
+}
+
+.activity{
+    width: 720;
+height: 378;
+top: 343px;
+
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.activity-1 {
+    width: 198;
+height: 226;
+top: 114px;
+left: 34px;
+
+}
+
+.heading-act-1 {
+    width: 183;
+height: 32;
+top: 236px;
+left: 41px;
+
+    font-family: Arial;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #1D3557;
+}
+.para-act-1 {
+    
+    width: 198;
+height: 55;
+top: 285px;
+left: 34px;
+font-family: Arial;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #1D3557;
+
+    
+}
+
+.activity-2 {
+    width: 198;
+height: 227;
+top: 113px;
+left: 265px;
+}
+.heading-act-2 {
+    
+    width: 162;
+height: 35;
+top: 235px;
+left: 283px;
+font-family: Arial;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color:#1D3557;
+
+}
+.para-act-2 {
+    width: 198;
+height: 54;
+top: 286px;
+left: 265px;
+font-family: Arial;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color:#1D3557;
+}
+
+
+.activity-3 {
+    
+    width: 198;
+height: 227;
+top: 113px;
+left: 488px;
+
+}
+
+.heading-act-3 {
+    width: 197;
+height: 38;
+top: 236px;
+left: 488px;
+font-family: Arial;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color:#1D3557;
+}
+.para-act-3 {
+    width: 198;
+height: 54;
+top: 286px;
+left: 488px;
+font-family: Arial;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color:#1D3557;
+}
+.card{
+    width: 720;
+height: 394;
+top: 721px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 5px solid #A8DADC;
+    border-bottom: 5px solid #1D3557;
+   background: #A8DADC;
+   margin: 100px 200px 100px 200px ;
+   border-radius: 10px;
+
+    
+}
+
+.card-img {
+    
+    width: 150px;
+}
+#card-h1 {
+    color: #1D3557;
+    width: 207;
+height: 32;
+top: 99px;
+left: 349px;
+
+
+
+}
+#card-h2 {
+     color: #1D3557;
+     font-family: Arial;
+font-weight: 400;
+font-style: italic;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 189;
+height: 71;
+top: 145px;
+left: 360px;
+
+
+}
+#card-h3{
+     color: #1D3557;
+     font-family: Arial;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 189;
+height: 18;
+top: 242px;
+left: 358px;
+
+}
